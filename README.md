@@ -1,4 +1,7 @@
 # Sharepoint Site Columns
+A quick reference of all the different types of site columns for when you're building SharePoint page layouts.
+
+
 
 ### Single line of text
 ```sh
@@ -60,9 +63,9 @@
 <SharePoint:DropDownChoiceField FieldName="" runat="server" InputFieldLabel=""/>
 ```
 
----------------
 
-### Following 5 columns require register tag at top of page layout
+
+# Following 5 columns require register tag at top of page layout
 ```sh
 <%@ Register Tagprefix="PublishingWebControls" Namespace="Microsoft.SharePoint.Publishing.WebControls" Assembly="Microsoft.SharePoint.Publishing, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 ```
@@ -92,9 +95,9 @@
   <PublishingWebControls:MediaFieldControl FieldName="" runat="server" InputFieldLabel=""/>
   ```
 
----------------
 
-### Following column requires register tag at top of page layout
+
+# Following column requires register tag at top of page layout
 ```sh
 <%@ Register tagprefix="Taxonomy" namespace="Microsoft.SharePoint.Taxonomy" assembly="Microsoft.SharePoint.Taxonomy, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 ```
