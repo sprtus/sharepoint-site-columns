@@ -1,10 +1,14 @@
 # Sharepoint Site Columns
 
-## Single line of text
+### Single line of text
+```sh
 <SharePoint:TextField FieldName="" runat="server" InputFieldLabel=""/>
+```
 
 ## Multiple lines of text
+```sh
 <SharePoint:NoteField FieldName="" runat="server" InputFieldLabel=""/>
+```
 
 ## Choice (menu to choose from)
 <SharePoint:DropDownChoiceField FieldName="" runat="server" InputFieldLabel=""/>
